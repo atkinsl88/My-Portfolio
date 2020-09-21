@@ -1,0 +1,22 @@
+.navbar {
+  height: 80px;
+  padding-right: 60px;
+}
+
+.navbar-drk {
+  background-color: #000000;
+}
+
+.navbar-drk a {
+  color: #FFFFFF;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar-end {
+  justify-content: flex-end;
+  margin-left: 0px;
+}

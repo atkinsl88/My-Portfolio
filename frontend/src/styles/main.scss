@@ -1,0 +1,61 @@
+/* Import - Bulma */
+@import '~bulma/bulma.sass';
+
+/* Import - Navigation & Footer */
+@import './modules/navbar/navbar.scss';
+@import './modules/footer/footer.scss';
+
+/* Import - Body */
+@import './modules/body/title.scss';
+@import './modules/body/hero.scss';
+@import './modules/body/herolrg.scss';
+@import './modules/body/featured.scss';
+@import './modules/body/worked.scss';
+@import './modules/body/other.scss';
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 72pt;
+  margin: 0px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 72pt;
+  margin: 0px;
+  color: #000000;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50pt;
+  margin: 0px;
+  color: #000000;
+}
+
+h4 {
+  font-family: 'VT323', monospace;
+  font-size: 16pt;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15pt;
+  margin: 0px;
+
+}
+
+a {
+  font-family: 'VT323', monospace;
+  font-size: 15pt;
+  margin: 0px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,32 @@
+.other-container {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  background-color: #FFFFFF;
+}
+
+.title {
+  max-width: 700px;
+}
+
+.other-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.divider {
+  width: 40px;
+}
+
+.other {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 700px;
+}
+
+.other img {
+  border: 1px solid black;
+  width: 100%;
+}

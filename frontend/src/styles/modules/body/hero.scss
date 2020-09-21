@@ -1,0 +1,29 @@
+/* Container */
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+}
+
+/* Left */
+
+.hero-lft {
+  display: flex;
+  flex: 1 1 430px;
+  margin-right: 60px;
+}
+
+.hero-lft img {
+  width: 700px;
+}
+
+.hero-rgt {
+  display: flex;
+  flex: 1 1 430px;
+  margin-right: 60px;
+}
