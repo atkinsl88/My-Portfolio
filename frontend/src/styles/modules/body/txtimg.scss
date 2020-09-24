@@ -3,10 +3,11 @@
 .txtimg-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 60px;
   padding-left: 60px;
+  padding-right: 60px;
   padding-bottom: 60px;
   background-color: #000000;
 }
@@ -22,9 +23,11 @@
 /* Left */
 
 .txtimg-lft {
-  display: flex;  
+  display: flex; 
+  flex: 1 1 400px;
 }
 
 .txtimg-rgt {
   display: flex;
+  flex: 1 1 400px;
 }
