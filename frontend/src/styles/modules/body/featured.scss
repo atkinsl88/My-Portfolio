@@ -18,8 +18,13 @@
   color: #FFFFFF;
 }
 
-.title {
+.title-area {
   max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.feature-txt {
+  margin-top: 40px;
 }
 
 .featured-wrapper {
@@ -29,13 +34,13 @@
 }
 
 .divider {
-  width: 40px;
+  max-width: 40px;
 }
 
 .feature {
   display: flex;
   flex-direction: column;
-  flex: 1 1 700px;
+  flex: 1 1 400px;
 }
 
 .feature img {

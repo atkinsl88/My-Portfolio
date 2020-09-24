@@ -1,0 +1,30 @@
+/* Container */
+
+.imgtxt-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  background-color: #000000
+}
+
+.imgtxt-container h4 {
+  color: #FFFFFF;
+}
+
+.imgtxt-container p {
+  color: #FFFFFF;
+}
+
+/* Left */
+
+.imgtxt-rgt {
+  display: flex;
+}
+
+.imgtxt-lft {
+  display: flex;
+}

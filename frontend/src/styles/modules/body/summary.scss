@@ -1,0 +1,23 @@
+/* Container */
+
+.summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  background-color: #FFFFFF;
+}
+
+/* Left */
+
+.summary-lft {
+  width: 700px;
+  display: flex;  
+}
+
+.summary-rgt {
+  display: flex;
+}

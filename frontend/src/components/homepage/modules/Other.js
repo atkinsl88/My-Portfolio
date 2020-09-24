@@ -1,6 +1,6 @@
 import React from 'react'
-import pensacola from '../../../assets/pensacola.png'
-import park from '../../../assets/park-house.png'
+import zelda from '../../../assets/zelda.jpg'
+import trump from '../../../assets/tumpkanye.jpg'
 
 const Featured = () => (
 
@@ -8,7 +8,7 @@ const Featured = () => (
 
     <div className="other-container">
 
-      <div className="title">
+      <div className="title-area">
         <h2>other work</h2>
         <p>& achievements</p>
         <a>+ More</a>
@@ -16,16 +16,20 @@ const Featured = () => (
 
       <div className="other-wrapper">
         <div className="other">
-          <img src={pensacola} alt="logo" />
-          <p>Pensacola</p>
-          <a>+ Read more</a>
+          <img src={zelda} alt="logo" />
+          <div className="other-txt">
+            <p>Zelda - Vanilla Javascript game</p>
+            <a>+ Read more</a>
+          </div>
         </div>
         <div className="divider">
         </div>
         <div className="other">
-          <img src={park} alt="logo" />
-          <p>Pensacola</p>
-          <a>+ Read more</a>
+          <img src={trump} alt="logo" />
+          <div className="other-txt">
+            <p>Trump vs. Kanye</p>
+            <a>+ Read more</a>
+          </div>
         </div>
       </div>
 

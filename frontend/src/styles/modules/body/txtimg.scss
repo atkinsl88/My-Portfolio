@@ -1,0 +1,30 @@
+/* Container */
+
+.txtimg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+
+.txtimg-container h4 {
+  color: #FFFFFF;
+}
+
+.txtimg-container p {
+  color: #FFFFFF;
+}
+
+/* Left */
+
+.txtimg-lft {
+  display: flex;  
+}
+
+.txtimg-rgt {
+  display: flex;
+}

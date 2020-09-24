@@ -1,0 +1,13 @@
+[
+{
+  "model": "small_proj.small_proj",
+  "pk": 1,
+  "fields": {
+    "proj_short_title": "Project 1",
+    "proj_short_copy": "Intro text",
+    "proj_short_img": "www.google.com",
+    "proj_short_link1": "www.google.com",
+    "proj_short_link2": "www.google.com"
+  }
+}
+]

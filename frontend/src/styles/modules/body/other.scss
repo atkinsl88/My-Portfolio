@@ -23,10 +23,14 @@
 .other {
   display: flex;
   flex-direction: column;
-  flex: 1 1 700px;
+  flex: 1 1 400px;
 }
 
 .other img {
   border: 1px solid black;
   width: 100%;
+}
+
+.other-txt {
+  margin-top: 40px;
 }

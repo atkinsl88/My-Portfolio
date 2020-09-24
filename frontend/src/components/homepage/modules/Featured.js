@@ -1,6 +1,6 @@
 import React from 'react'
-import pensacola from '../../../assets/pensacola.png'
-import park from '../../../assets/park-house.png'
+import damienlee from '../../../assets/damienlee.jpg'
+import parkhouse from '../../../assets/parkhouse.jpg'
 
 const Featured = () => (
 
@@ -8,7 +8,7 @@ const Featured = () => (
 
     <div className="feature-container">
 
-      <div className="title">
+      <div className="title-area">
         <h2>featured</h2>
         <p>Recent work</p>
         <a>+ More</a>
@@ -16,16 +16,22 @@ const Featured = () => (
 
       <div className="featured-wrapper">
         <div className="feature">
-          <img src={pensacola} alt="logo" />
-          <p>Pensacola</p>
-          <a>+ Read more</a>
+          <img src={damienlee} alt="logo" />
+          <div className="feature-txt">
+            <p>Damien King Lee</p>
+            <a>+ Read more</a>
+          </div>
         </div>
+        
         <div className="divider">
         </div>
+
         <div className="feature">
-          <img src={park} alt="logo" />
-          <p>Pensacola</p>
-          <a>+ Read more</a>
+          <img src={parkhouse} alt="logo" />
+          <div className="feature-txt">
+            <p>Park House Care Home</p>
+            <a>+ Read more</a>
+          </div>
         </div>
       </div>
 

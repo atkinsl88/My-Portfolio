@@ -22,7 +22,6 @@ class Navbar extends React.Component {
 
       <nav className="navbar navbar-drk">
         <div className="navbar-brand">
-          <Link to="/"><img alt="logo" /></Link>
           <span onClick={this.handleToggle} className={`navbar-burger ${this.state.isOpen ? 'is-active' : ''}`}>
             <span></span>
             <span></span>
@@ -30,9 +29,10 @@ class Navbar extends React.Component {
           </span>
         </div>
         <div className={`navbar-end navbar-menu ${this.state.isOpen ? 'is-active' : ''}`}>
+          <Link to="/" className="navbar-item navbar-end">Home</Link>
           <Link to="/about" className="navbar-item navbar-end">About</Link>
-          <Link to="/" className="navbar-item navbar-end">Work</Link>
-          <Link to="/" className="navbar-item navbar-end">Contact</Link>
+          <Link to="/work" className="navbar-item navbar-end">Work</Link>
+          <Link to="/contact" className="navbar-item navbar-end">Contact</Link>
         </div>
       </nav>
 

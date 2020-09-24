@@ -12,6 +12,16 @@
 @import './modules/body/featured.scss';
 @import './modules/body/worked.scss';
 @import './modules/body/other.scss';
+@import './modules/body/skills.scss';
+@import './modules/body/txtimg.scss';
+@import './modules/body/imgtxt.scss';
+@import './modules/body/summary.scss';
+@import './modules/body/titletxt.scss';
+@import './modules/body/contact.scss';
+
+/* Import - Projects */
+@import './modules/projects/small.scss';
+@import './modules/projects/large.scss';
 
 /* Fonts */
 @import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
