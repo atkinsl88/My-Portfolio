@@ -1,17 +1,44 @@
 [
 {
   "model": "large_proj.large_proj",
-  "pk": 1,
+  "pk": 5,
   "fields": {
-    "para_one_title": "qhrthr",
-    "para_one_copy": "rttrjtj",
-    "para_one_link": "tyjjw",
-    "para_two_title": "yjytjj",
-    "para_two_copy": "ytjytj",
-    "para_two_img1": "https://i.imgur.com/iGMYH3A.png",
-    "para_two_img2": "https://i.imgur.com/iGMYH3A.png",
-    "para_two_img3": "https://i.imgur.com/iGMYH3A.png",
-    "para_two_img4": "https://i.imgur.com/iGMYH3A.png"
+    "proj_title": "damien king lee",
+    "proj_desc": "A Wordpress portfolio site using the ACast podcast plug-in. Damien King Lee is a Bournemouth based business man who's recently launched a series of podcasts with numerous celebrities. The brief was to develop a self-servable website for his team to manage on a daily basis. Using a Wordpress template and altering aspects of the CSS, I was able to provide him with a working website on a short timefr",
+    "proj_img": "https://i.imgur.com/O8KpoV0.jpg",
+    "skills": "Client management, design, configuration, build and deployment",
+    "url": "http://damienkinglee.com/",
+    "url2": "https://www.google.com/",
+    "para_one_title": "User Experience",
+    "para_one_copy": "User experience played a vital role in this project as Damien has four main pillars to his brand. My brief was to find a way to allows users to quickly and efficiently navigate through the site whilst keeping in mind the main call to action and purpose of the site was to surface the podcasts.",
+    "para_one_img": "https://i.imgur.com/AJs8Vp2.jpg",
+    "para_two_title": "Design",
+    "para_two_copy": "Damien has specific brand guidelines to work from, which meant tailoring the Wordpress template to match the requirements of the guidelines. This included fonts, primary and secondary colours, buttons and other important items.",
+    "para_two_img": "https://i.imgur.com/YXI6aNR.jpg",
+    "para_three_title": "Development and configuration",
+    "para_three_copy": "I had 5 days from start to finish to prepare and deployt the website, including design, amends, content population and deployment. I managed the DNS record management and deployment and provided the team was access to the back-end to make changes themselves.",
+    "para_three_img": "https://i.imgur.com/7c9IIgf.jpg"
+  }
+},
+{
+  "model": "large_proj.large_proj",
+  "pk": 6,
+  "fields": {
+    "proj_title": "park house care home",
+    "proj_desc": "This site is a Python (Django) web application with a ReactJS front-end. The care home has the ability to manually update parts of their website via the Django back-end, whereas before they were paying a large fee to their web provider to make minor changes. Areas such as jobs, gallery and other pages can be edited easily.",
+    "proj_img": "https://i.imgur.com/05fEjGM.jpg",
+    "skills": "UX, design, development, project management, deployment",
+    "url": "https://parkhousecarehome.herokuapp.com/",
+    "url2": "https://github.com/atkinsl88/Park-House-SEI-Project-004",
+    "para_one_title": "User Experience",
+    "para_one_copy": "User experience played a vital role in the new site, there is a total of 18 pages which consist of a lot of copy content, and there are two lead capture forms which lead to either request more information (download) or general enquiry.",
+    "para_one_img": "https://i.imgur.com/thdOVxB.jpg",
+    "para_two_title": "Design",
+    "para_two_copy": "The care home had specific brand guidelines that I needed to work from, including fonts, primary and secondary colours and more. I prepared desktop, tablet and mobile designs during this phase.",
+    "para_two_img": "https://i.imgur.com/lszcXnl.jpg",
+    "para_three_title": "Development",
+    "para_three_copy": "I developed the site in Python, making use of the Django back-end platform which would enable the team to make quick changes to the site when needed. The business was paying excessive amounts for small changes with their local supplier and having something which was managebale by themselves saved a lot of time and money in the long run. I also managed the deployments.",
+    "para_three_img": "https://i.imgur.com/a91hiOP.jpg"
   }
 }
 ]

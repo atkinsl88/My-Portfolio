@@ -3,11 +3,22 @@
   "model": "small_proj.small_proj",
   "pk": 1,
   "fields": {
-    "proj_short_title": "Project 1",
-    "proj_short_copy": "Intro text",
-    "proj_short_img": "www.google.com",
-    "proj_short_link1": "www.google.com",
-    "proj_short_link2": "www.google.com"
+    "proj_short_title": "zelda's quest",
+    "proj_short_copy": "A vanilla Javascript 'frogger' based game, whereby you navigate Link across the dangers of Hyrule. The aim of the game is to avoid the dangers of the enemies, collect the bonus items if you can, and reach Princess Zelda at the top of the page.",
+    "proj_short_img": "https://i.imgur.com/RUkppFA.jpg",
+    "proj_short_link1": "https://zeldas-quest.netlify.app/",
+    "proj_short_link2": "https://github.com/atkinsl88/Zeldas-Quest-SEI-Project-001"
+  }
+},
+{
+  "model": "small_proj.small_proj",
+  "pk": 2,
+  "fields": {
+    "proj_short_title": "trump vs kanye",
+    "proj_short_copy": "External API driven question game whereby a random question served from one of two API's is called and surfaces on the page. The user is required to guess the correct answer and at the end your score is totalled up.",
+    "proj_short_img": "https://i.imgur.com/Jlsu8d8.jpg",
+    "proj_short_link1": "https://dicktatorship.netlify.app/",
+    "proj_short_link2": "https://github.com/atkinsl88/Dicktatorship-SEI-Project-002"
   }
 }
 ]
