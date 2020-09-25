@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Largecard = ({ para_one_title, para_two_img1, id }) => (
+const Largecard = ({ proj_title, proj_img, id }) => (
 
   <section>
-    <Link to={`/large/${id}`}>
-      <div className="large-card">
-        <img src={para_two_img1} alt=""></img>
-        <p>{para_one_title}</p>
+    <div className="large-card">
+      <img src={proj_img} alt=""></img>
+      <div className="para-title">
+        <p>{proj_title}</p>
+        <Link to={`/large/${id}`}>+ Read more</Link>
       </div>
-    </Link>
+    </div>
   </section>
 
 )

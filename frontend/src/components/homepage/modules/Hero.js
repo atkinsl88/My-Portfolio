@@ -15,8 +15,10 @@ const Hero = () => (
 
       <div className="hero-rgt">
         <div className="hero-txt">
-          <p>Project Manager turned Developer, I have over ten years experience in delivering digital products.</p>
-          <a>+ About</a>
+          <p>I'm a Digital Project Manager turned Software Engineer with over 10 year experience delivering websites, applications and intranets.</p>
+          <div className="link-spacing">
+            <a href="/about">+ About</a>
+          </div>
         </div>
       </div>
 

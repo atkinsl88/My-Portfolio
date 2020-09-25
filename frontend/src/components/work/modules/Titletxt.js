@@ -5,7 +5,7 @@ const Titletxt = () => (
 
     <div className="titletxt-container">
       <div className="titletxt">
-        <p>Met 30 jaar ervaring is Deterink gegroeid, vernieuwd en gespecialiseerd. heeft en op terug kan vallen wanneer het nodig is.</p>
+        <p>I've seperated my work into larger projects (sites, apps and client projects) and smaller projects (learning, fun and other).</p>
       </div>
     </div>
 

@@ -1,5 +1,10 @@
 import React from 'react'
-import ga from '../../../assets/ga.png'
+import general from '../../../assets/general.png'
+import wunderman from '../../../assets/wunderman.png'
+import imagination from '../../../assets/imagination.png'
+import investis from '../../../assets/investis.png'
+import rufus from '../../../assets/rufus-leonard.png'
+import ef from '../../../assets/ef.png'
 
 const Featured = () => (
 
@@ -24,14 +29,12 @@ const Featured = () => (
           <div className="worked-parent">
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={ga} alt="logo" />
+                <img src={general} alt="logo" />
               </div>
-            </div>
-            <div className="divider2">
             </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={ga} alt="logo" />
+                <img src={wunderman} alt="logo" />
               </div>
             </div>
           </div>
@@ -46,35 +49,22 @@ const Featured = () => (
           <div className="worked-parent">
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={ga} alt="logo" />
+                <img src={imagination} alt="logo" />
               </div>
-            </div>
-            <div className="divider2">
             </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={ga} alt="logo" />
+                <img src={investis} alt="logo" />
               </div>
-            </div>
-            <div className="divider2">
             </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={ga} alt="logo" />
+                <img src={rufus} alt="logo" />
               </div>
-            </div>
-            <div className="divider2">
             </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={ga} alt="logo" />
-              </div>
-            </div>
-            <div className="divider2">
-            </div>
-            <div className="worked-bkgrd">
-              <div className="worked-img">
-                <img src={ga} alt="logo" />
+                <img src={ef} alt="logo" />
               </div>
             </div>
           </div>

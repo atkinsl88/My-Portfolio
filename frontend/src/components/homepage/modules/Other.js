@@ -10,8 +10,8 @@ const Featured = () => (
 
       <div className="title-area">
         <h2>other work</h2>
-        <p>& achievements</p>
-        <a>+ More</a>
+        <p>Smaller projects worth sharing</p>
+        <a href="/work">Read more</a>
       </div>
 
       <div className="other-wrapper">
@@ -19,7 +19,9 @@ const Featured = () => (
           <img src={zelda} alt="logo" />
           <div className="other-txt">
             <p>Zelda - Vanilla Javascript game</p>
-            <a>+ Read more</a>
+            <div className="link-spacing">
+              <a>+ Read more</a>
+            </div>
           </div>
         </div>
         <div className="divider">
@@ -28,7 +30,9 @@ const Featured = () => (
           <img src={trump} alt="logo" />
           <div className="other-txt">
             <p>Trump vs. Kanye</p>
-            <a>+ Read more</a>
+            <div className="link-spacing">
+              <a>+ Read more</a>
+            </div>
           </div>
         </div>
       </div>

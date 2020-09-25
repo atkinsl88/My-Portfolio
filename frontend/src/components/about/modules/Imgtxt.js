@@ -14,8 +14,8 @@ const Imgtxt = () => (
 
       <div className="txtimg-rgt">
         <div className="txt-rgt">
-          <h4>Development</h4>
-          <p>Project Manager turned Developer, I have over ten years experience in delivering digital products.</p>
+          <h4>Project Manager</h4>
+          <p>I’ve been working as a Digital Project Manager, during which time I’ve done just about every job imaginable. In those roles, I’ve worked directly with clients, and indirectly through account managers. I’ve been responsible for projects, managed and mentored project managers and designers, and I’ve been directly involved at all levels in hundreds of projects for just about every type of client in a multitude of industries.</p>
         </div>
       </div>
 

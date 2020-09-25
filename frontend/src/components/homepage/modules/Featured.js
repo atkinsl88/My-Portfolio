@@ -10,8 +10,10 @@ const Featured = () => (
 
       <div className="title-area">
         <h2>featured</h2>
-        <p>Recent work</p>
-        <a>+ More</a>
+        <p>Recent client projects and larger projects</p>
+        <div className="link-spacing">
+          <a href="/work">Read more</a>
+        </div>
       </div>
 
       <div className="featured-wrapper">
@@ -19,7 +21,9 @@ const Featured = () => (
           <img src={damienlee} alt="logo" />
           <div className="feature-txt">
             <p>Damien King Lee</p>
-            <a>+ Read more</a>
+            <div className="link-spacing">
+              <a href="url">Read more</a>
+            </div>
           </div>
         </div>
         
@@ -30,7 +34,9 @@ const Featured = () => (
           <img src={parkhouse} alt="logo" />
           <div className="feature-txt">
             <p>Park House Care Home</p>
-            <a>+ Read more</a>
+            <div className="link-spacing">
+              <a href="url">Read more</a>
+            </div>
           </div>
         </div>
       </div>

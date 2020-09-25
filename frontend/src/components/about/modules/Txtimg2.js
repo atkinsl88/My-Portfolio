@@ -8,8 +8,8 @@ const Txtimg2 = () => (
 
       <div className="txtimg-lft">
         <div className="txt-lft">
-          <h4>Development</h4>
-          <p>Project Manager turned Developer, I have over ten years experience in delivering digital products.</p>
+          <h4>Digital Design</h4>
+          <p>Digital design is something I have always had a passion for, although I am primarily a developer, I am able to produce effective wireframes (UX) and designs using software such as Sketch, Photoshop, Invision and more.</p>
         </div>
       </div>
 

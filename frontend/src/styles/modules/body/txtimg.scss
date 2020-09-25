@@ -23,11 +23,18 @@
 /* Left */
 
 .txtimg-lft {
-  display: flex; 
+  display: flex;
+  justify-content: flex-start;
   flex: 1 1 400px;
 }
 
 .txtimg-rgt {
   display: flex;
+  justify-content: flex-end;
   flex: 1 1 400px;
+  margin-left: 40px;
+}
+
+.txtimg-container img {
+  width: 700px;
 }

@@ -6,31 +6,15 @@ const Skills = () => (
     <div className="skills-container">
 
       <div className="col-wrap">
-        <h4>Skills</h4>
+        <h4>Front-End</h4>
         <div className="skill">
-          <p>User Experience</p>
+          <p>CSS / SCSS</p>
         </div>
         <div className="skill">
-          <p>User Experience</p>
+          <p>JavaScript (React JS)</p>
         </div>
         <div className="skill">
-          <p>User Experience</p>
-        </div>
-      </div>
-
-      <div className="divider">
-      </div>
-
-      <div className="col-wrap">
-        <h4>Skills</h4>
-        <div className="skill">
-          <p>User Experience</p>
-        </div>
-        <div className="skill">
-          <p>User Experience</p>
-        </div>
-        <div className="skill">
-          <p>User Experience</p>
+          <p>HTML</p>
         </div>
       </div>
 
@@ -38,24 +22,28 @@ const Skills = () => (
       </div>
 
       <div className="col-wrap">
-        <h4>Skills</h4>
+        <h4>Back-End</h4>
         <div className="skill">
-          <p>User Experience</p>
+          <p>Python (Django)</p>
         </div>
         <div className="skill">
-          <p>User Experience</p>
+          <p>REST</p>
+        </div>
+      </div>
+
+      <div className="divider">
+      </div>
+
+      <div className="col-wrap">
+        <h4>Other</h4>
+        <div className="skill">
+          <p>Mongo DB</p>
         </div>
         <div className="skill">
-          <p>User Experience</p>
+          <p>Node.js</p>
         </div>
         <div className="skill">
-          <p>User Experience</p>
-        </div>
-        <div className="skill">
-          <p>User Experience</p>
-        </div>
-        <div className="skill">
-          <p>User Experience</p>
+          <p>Table Plus / Insomnia</p>
         </div>
       </div>
 

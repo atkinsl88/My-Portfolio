@@ -3,32 +3,25 @@
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 60px;
-  background-color: #000000;
-}
-
-.small-container h1 {
-  color: #FFFFFF;
-}
-
-.small-container p {
-  color: #FFFFFF;
-}
-
-.small-container a {
-  color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .small-wrapper {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .smol-card {
   display: flex;
   flex-direction: column;
-  max-width: 350px;
-  flex: 1 1 350px;
+  max-width: 300px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.smol-card img {
+  border: #000000 1px solid;
 }
 
 /* Smallcard Container */

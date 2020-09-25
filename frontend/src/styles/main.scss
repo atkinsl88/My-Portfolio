@@ -60,7 +60,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 15pt;
   margin: 0px;
-
 }
 
 a {
@@ -69,4 +68,10 @@ a {
   margin: 0px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.link-spacing {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }

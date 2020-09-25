@@ -8,16 +8,15 @@ import Largeindex from './modules/Largeindex'
 import Footerdrk from '../common/Footerdrk'
 
 
-const Home = (props) => {
-const { match } = props
+const Home = () => {
 
   return (
     <section>
       <Navbar />
       <Title />
       <Titletxt />
-      <Smallindex match = { match } />
       <Largeindex />
+      <Smallindex />
       <Footerdrk />
     </section>
   )

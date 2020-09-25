@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   padding-top: 60px;
   padding-left: 60px;
+  padding-right: 60px;
   padding-bottom: 60px;
   background-color: #FFFFFF;
 }
@@ -14,10 +15,24 @@
 /* Left */
 
 .summary-lft {
-  width: 700px;
-  display: flex;  
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 1 400px; 
+  margin-right: 40px;
 }
 
 .summary-rgt {
   display: flex;
+  justify-content: flex-end;
+  flex: 1 1 400px;
+}
+
+.summary-large {
+  width: 700px;
+}
+
+.social img {
+  height: 24px;
+  margin-top: 10px;
+  margin-right: 5px;
 }

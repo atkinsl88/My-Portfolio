@@ -32,14 +32,10 @@
   flex-wrap: wrap;
 }
 
-.divider {
-  width: 40px;
-}
-
 .worked {
   display: flex;
   flex-direction: column;
-  flex: 1 1 600px;
+  flex: 1 1 300px;
 }
 
 .worked-parent {
@@ -47,18 +43,15 @@
   flex-wrap: wrap;
 }
 
-.divider2 {
-  width: 20px;
-}
-
 .worked-bkgrd {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 160px;
-  width: 300px;
+  width: 280px;
   background-color: #1B1B1B;
   margin-top: 20px;
+  margin-right: 20px;
 }
 
 .worked-img img {
