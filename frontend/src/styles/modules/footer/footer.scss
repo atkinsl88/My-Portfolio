@@ -1,9 +1,21 @@
 .footer-container {
   background-color: #FFFFFF;
+  padding-top: 60px;
 }
 
 .footer-container-drk {
   background-color: #000000;
+  padding-top: 60px;
+}
+
+.footer-container img {
+  width: 160px;
+  height: 160px;
+}
+
+.footer-container-drk img {
+  width: 160px;
+  height: 160px;
 }
 
 .footer-top {
@@ -14,6 +26,10 @@
   padding-top: 60px;
   padding-left: 60px;
   padding-bottom: 60px;
+}
+
+.footer-txt p {
+  color: #FFFFFF;
 }
 
 .footer-txt-drk p {

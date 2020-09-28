@@ -12,7 +12,7 @@ const Featured = () => (
         <h2>featured</h2>
         <p>Recent client projects and larger projects</p>
         <div className="link-spacing">
-          <a href="/work">Read more</a>
+          <a href="/work">+ Read more</a>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ const Featured = () => (
           <div className="feature-txt">
             <p>Damien King Lee</p>
             <div className="link-spacing">
-              <a href="url">Read more</a>
+              <a href="url">+ Read more</a>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Featured = () => (
           <div className="feature-txt">
             <p>Park House Care Home</p>
             <div className="link-spacing">
-              <a href="url">Read more</a>
+              <a href="url">+ Read more</a>
             </div>
           </div>
         </div>

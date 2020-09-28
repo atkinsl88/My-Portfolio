@@ -18,4 +18,4 @@ class Large_proj(models.Model):
     para_three_img = models.CharField(max_length=400, default='https://i.imgur.com/e4zkPkY.jpg')
 
     def __str__(self):
-      return f'{self.para_one_title}'
+      return f'{self.proj_title}'

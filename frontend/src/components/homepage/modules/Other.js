@@ -11,7 +11,7 @@ const Featured = () => (
       <div className="title-area">
         <h2>other work</h2>
         <p>Smaller projects worth sharing</p>
-        <a href="/work">Read more</a>
+        <a href="/work">+ Read more</a>
       </div>
 
       <div className="other-wrapper">
