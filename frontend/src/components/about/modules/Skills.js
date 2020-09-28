@@ -29,6 +29,9 @@ const Skills = () => (
         <div className="skill">
           <p>REST</p>
         </div>
+        <div className="skill">
+          <p>REST</p>
+        </div>
       </div>
 
       <div className="divider">
