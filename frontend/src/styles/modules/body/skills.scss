@@ -4,6 +4,7 @@
   padding-right: 60px;
   padding-bottom: 60px;
   display: flex;
+  flex-wrap: wrap;
   background-color: #000000;
 }
 
@@ -21,6 +22,7 @@
 
 .col-wrap {
   width: 500px;
+  flex: 1 1 300px;
 }
 
 .skill {
@@ -33,4 +35,20 @@
   margin-top: 20px;
   padding-bottom: 20px;
   border-bottom: 2px solid #000000;
+}
+
+@media only screen and (max-width: 1100px) {
+  .col-wrap {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .col-wrap {
+    margin-bottom: 60px;
+  }
+  .skills-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }

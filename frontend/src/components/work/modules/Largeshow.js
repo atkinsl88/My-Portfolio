@@ -4,7 +4,7 @@ import { getSingleLarge } from '../../../lib/api'
 import Navbar from '../../common/Navbar'
 import Footer from '../../common/Footer'
 
-class Smallshow extends React.Component {
+class Largeshow extends React.Component {
   
   state = { 
     large: null 
@@ -44,10 +44,6 @@ class Smallshow extends React.Component {
               <img src={large.proj_img} alt="logo" />
             </div>
             <div className="largecard-hero-wrapper-txt">
-              <div className="skill2">
-                <h4>Skills</h4>
-                <p>{large.skills}</p>
-              </div>
               <div className="link-spacing">
                 <a href={large.url} target="_blank">+ View Website</a>
                 <a href={large.url2} target="_blank">+ View Github</a>
@@ -117,4 +113,4 @@ class Smallshow extends React.Component {
   }
 }
 
-export default Smallshow
+export default Largeshow

@@ -14,7 +14,7 @@ const Footer = () => (
       </div>
 
       <div className="footer-bottom">
-        <div className="footer-txt">
+        <div className="footer-txt-drk">
           <p>Contact</p>
           <p>+44 (0) 753121994</p>
           <p>liamatkins24@gmail.com</p>

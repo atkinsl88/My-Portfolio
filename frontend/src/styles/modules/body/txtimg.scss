@@ -38,3 +38,19 @@
 .txtimg-container img {
   width: 700px;
 }
+
+@media only screen and (max-width: 900px) {
+  .txtimg-rgt {
+    margin-left: 0px;
+  }
+  .txtimg-lft {
+    margin-bottom: 30px;
+  }
+  .txtimg-lft img {
+    display: none;
+  }
+  .txtimg-container {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}

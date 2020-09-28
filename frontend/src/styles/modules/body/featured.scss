@@ -45,4 +45,17 @@
 
 .feature img {
   width: 100%;
+  border: #979797 1px solid;
+}
+
+@media only screen and (max-width: 900px) {
+  .feature-container {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .feature-txt {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
 }

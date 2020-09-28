@@ -6,7 +6,7 @@ export const getAllSmalls = () => {
 }
 
 export const getSingleSmall = id => {
-  return axios.get(`${baseUrl}/small/${id}`)
+  return axios.get(`${baseUrl}/small/${id}/`)
 }
 
 export const getAllLarge = () => {
@@ -14,5 +14,5 @@ export const getAllLarge = () => {
 }
 
 export const getSingleLarge = id => {
-  return axios.get(`${baseUrl}/large/${id}`)
+  return axios.get(`${baseUrl}/large/${id}/`)
 }

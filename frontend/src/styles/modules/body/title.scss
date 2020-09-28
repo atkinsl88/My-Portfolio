@@ -1,6 +1,7 @@
 .title-container {
   padding-top: 60px;
   padding-left: 60px;
+  padding-right: 60px;
   padding-bottom: 60px;
 }
 
@@ -17,4 +18,13 @@
 
 .title {
   max-width: 700px;
+}
+
+@media only screen and (max-width: 900px) {
+  .title-container {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+  }
 }

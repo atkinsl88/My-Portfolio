@@ -11,7 +11,7 @@ const Skills = () => (
           <p>CSS / SCSS</p>
         </div>
         <div className="skill">
-          <p>JavaScript (React JS)</p>
+          <p>JavaScript (React)</p>
         </div>
         <div className="skill">
           <p>HTML</p>
@@ -26,12 +26,6 @@ const Skills = () => (
         <div className="skill">
           <p>Python (Django)</p>
         </div>
-        <div className="skill">
-          <p>REST</p>
-        </div>
-        <div className="skill">
-          <p>REST</p>
-        </div>
       </div>
 
       <div className="divider">
@@ -40,13 +34,16 @@ const Skills = () => (
       <div className="col-wrap">
         <h4>Other</h4>
         <div className="skill">
-          <p>Mongo DB</p>
+          <p>Git & Github</p>
         </div>
         <div className="skill">
-          <p>Node.js</p>
+          <p>UNIX</p>
         </div>
         <div className="skill">
-          <p>Table Plus / Insomnia</p>
+          <p>SQL</p>
+        </div>
+        <div className="skill">
+          <p>SQL (Mongo DB)</p>
         </div>
       </div>
 

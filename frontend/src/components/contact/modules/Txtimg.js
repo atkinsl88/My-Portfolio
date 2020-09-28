@@ -14,9 +14,9 @@ const Txtimg = () => (
           <h4>Information</h4>
           <p>Please find my contact details below.</p>
           <p>Tel: +44 (0) 7531219924 </p>
-          <p>Email: liam@email.com</p>
+          <p>Email: liamatkins24@gmail.com</p>
         </div>
-        <div className="other">
+        <div className="divider2">
         </div>
         <div className="social">
           <h4>Social & other</h4>

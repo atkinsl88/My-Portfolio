@@ -36,19 +36,24 @@ class Smallshow extends React.Component {
             <h1>{small.proj_short_title}</h1>
           </div>
 
-          <div className="largecard-intro">
-            <p>{small.proj_short_copy}</p>
-            <div className="link-spacing">
-              <a href={small.proj_short_link1} target="_blank">+ View Website</a>
-              <a href={small.proj_short_link1} target="_blank">+ View Github</a>
+          <div className="smallcard-wrapper">
+
+            <div className="largecard-intro">
+              <p>{small.proj_short_copy}</p>
+              <div className="link-spacing-small">
+                <a href={small.proj_short_link1} target="_blank">+ View Website</a>
+                <a href={small.proj_short_link1} target="_blank">+ View Github</a>
+              </div>
             </div>
+
+            <div className="smallcard-hero-wrapper">
+              <div className="largecard-hero-wrapper-img">
+                <img src={small.proj_short_img} alt="logo" />
+              </div>
+            </div>
+
           </div>
 
-          <div className="largecard-hero-wrapper">
-            <div className="largecard-hero-wrapper-img">
-              <img src={small.proj_short_img} alt="logo" />
-            </div>
-          </div>
 
         </div>
 

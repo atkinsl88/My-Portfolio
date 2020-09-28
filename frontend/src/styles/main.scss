@@ -75,3 +75,33 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.divider2 {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 36pt;
+  }
+  
+  h2 {
+    font-size: 36pt;
+  }
+  
+  h3 {
+    font-size: 30pt;
+  }
+  
+  h4 {
+    font-size: 14pt;
+  }
+  
+  p {
+    font-size: 12pt;
+  }
+  
+  a {
+    font-size: 12pt;
+  }
+}

@@ -27,10 +27,20 @@
 }
 
 .other img {
-  border: 1px solid black;
+  border: #979797 1px solid;
   width: 100%;
 }
 
 .other-txt {
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .other-txt {
+    margin-top: 10px;
+  }
+  .other {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
 }

@@ -3,7 +3,7 @@ import { getAllLarge } from '../../../lib/api'
 
 import Largecard from './Largecard'
 
-class Smallindex extends React.Component {
+class Largeindex extends React.Component {
 
   state = {
     larges: []
@@ -31,7 +31,7 @@ class Smallindex extends React.Component {
 
           <div className="large-wrapper">
             {this.state.larges.map(large => (
-              <Largecard key={large._id} {...large}/>
+              <Largecard key={large.id} {...large}/>
             ))}
           </div>
 
@@ -42,4 +42,4 @@ class Smallindex extends React.Component {
   }
 }
 
-export default Smallindex
+export default Largeindex

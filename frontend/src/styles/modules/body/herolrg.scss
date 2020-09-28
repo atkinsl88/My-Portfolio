@@ -42,3 +42,18 @@
 .hero-lrg-rgt img {
   width: 700px;
 }
+
+@media only screen and (max-width: 900px) {
+  .hero-sec-img {
+    margin-top: 30px;
+  }
+  .hero-lrg-container {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .hero-lrg-rgt {
+    display: none;
+  }
+}

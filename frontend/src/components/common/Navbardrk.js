@@ -32,7 +32,7 @@ class Navbar extends React.Component {
           <Link to="/" className="navbar-item navbar-end">Home</Link>
           <Link to="/about" className="navbar-item navbar-end">About</Link>
           <Link to="/work" className="navbar-item navbar-end">Work</Link>
-          <Link to="/contact" className="navbar-item navbar-end">Contact</Link>
+          <Link to="/contact" className="navbar-item navbar-end navbar-space">Contact</Link>
         </div>
       </nav>
 

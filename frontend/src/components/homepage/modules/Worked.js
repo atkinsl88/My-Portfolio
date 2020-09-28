@@ -5,6 +5,8 @@ import imagination from '../../../assets/imagination.png'
 import investis from '../../../assets/investis.png'
 import rufus from '../../../assets/rufus-leonard.png'
 import ef from '../../../assets/ef.png'
+import story from '../../../assets/story.png'
+import reply from '../../../assets/reply.png'
 
 const Featured = () => (
 
@@ -14,10 +16,6 @@ const Featured = () => (
 
       <div className="title">
         <h3>worked with</h3>
-      </div>
-
-      <div className="subtitle">
-        <p>Who I have worked with</p>
       </div>
 
       <div className="worked-wrapper">
@@ -43,28 +41,39 @@ const Featured = () => (
         </div>
         <div className="divider">
         </div>
+        
         <div className="worked">
           <h4>As a project manager</h4>
 
           <div className="worked-parent">
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={imagination} alt="logo" />
+                <img src={imagination} alt="Imagination" />
               </div>
             </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={investis} alt="logo" />
+                <img src={investis} alt="Investis Digital" />
               </div>
             </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={rufus} alt="logo" />
+                <img src={rufus} alt="Rufus Leonard" />
               </div>
             </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
-                <img src={ef} alt="logo" />
+                <img src={ef} alt="EF" />
+              </div>
+            </div>
+            <div className="worked-bkgrd">
+              <div className="worked-img">
+                <img src={story} alt="Digital Annexe" />
+              </div>
+            </div>
+            <div className="worked-bkgrd">
+              <div className="worked-img">
+                <img src={reply} alt="WM Reply" />
               </div>
             </div>
           </div>
