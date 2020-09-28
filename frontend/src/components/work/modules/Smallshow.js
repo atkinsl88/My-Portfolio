@@ -42,7 +42,7 @@ class Smallshow extends React.Component {
               <p>{small.proj_short_copy}</p>
               <div className="link-spacing-small">
                 <a href={small.proj_short_link1} target="_blank">+ View Website</a>
-                <a href={small.proj_short_link1} target="_blank">+ View Github</a>
+                <a href={small.proj_short_link2} target="_blank">+ View Github</a>
               </div>
             </div>
 

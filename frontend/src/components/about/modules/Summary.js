@@ -11,7 +11,7 @@ const Summary = () => (
 
       <div className="summary-lft">
         <div className="txt-lft">
-          <h2>Summary</h2>
+          <h2>Profile</h2>
           <p>You can find a copy of my latest CV, and link to my Github repositories, and other contact details below.</p>
         </div>
       </div>

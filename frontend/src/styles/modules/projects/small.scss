@@ -6,13 +6,10 @@
   background-color: #FFFFFF;
 }
 
-.small-wrapper {
-  display: flex;
-}
-
 .smol-card {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   margin-right: 20px;
+  max-width: 600px;
 }
 
 /* Smallcard Container */
@@ -26,9 +23,17 @@
 
 .smallcard-wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin-bottom: 60px;
   margin-top: 30px;
+}
+
+.largecard-hero-wrapper-img {
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 30px;
 }
 
 .smallcard-btns {

@@ -36,31 +36,31 @@ class Largeshow extends React.Component {
           </div>
 
           <div className="largecard-intro">
-            <p>{large.proj_desc}</p>
+            <div className="descr">
+              <p>{large.proj_desc}</p>
+            </div>
+            <div className="link-spacing">
+              <a href={large.url} target="_blank">+ View Website</a>
+              <a href={large.url2} target="_blank">+ View Github</a>
+            </div>
           </div>
 
           <div className="largecard-hero-wrapper">
             <div className="largecard-hero-wrapper-img">
               <img src={large.proj_img} alt="logo" />
             </div>
-            <div className="largecard-hero-wrapper-txt">
-              <div className="link-spacing">
-                <a href={large.url} target="_blank">+ View Website</a>
-                <a href={large.url2} target="_blank">+ View Github</a>
-              </div>
-            </div>
           </div>
 
-          <div className="txtimg-container">
+          <div className="txtimg-container extra-mar">
 
             <div className="txtimg-lft">
-              <div className="txt-lft">
+              <div className="txt-lft text-space">
                 <h4>{large.para_one_title}</h4>
                 <p>{large.para_one_copy}</p>
               </div>
             </div>
 
-            <div className="txtimg-rgt">
+            <div className="txtimg-rgt ">
               <div className="img-rgt">
                 <img src={large.para_one_img} alt="logo" />
               </div>
@@ -70,7 +70,7 @@ class Largeshow extends React.Component {
 
           <div className="txtimg-container">
 
-            <div className="txtimg-lft">
+            <div className="txtimg-lft text-space">
               <div className="img-lft">
                 <img src={large.para_two_img} alt="logo" />
               </div>
@@ -87,7 +87,7 @@ class Largeshow extends React.Component {
 
           <div className="txtimg-container">
 
-            <div className="txtimg-lft">
+            <div className="txtimg-lft text-space">
               <div className="txt-lft">
                 <h4>{large.para_three_title}</h4>
                 <p>{large.para_three_copy}</p>

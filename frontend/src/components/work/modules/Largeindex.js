@@ -29,7 +29,7 @@ class Largeindex extends React.Component {
             <h1>featured</h1>
           </div>
 
-          <div className="large-wrapper">
+          <div className="map">
             {this.state.larges.map(large => (
               <Largecard key={large.id} {...large}/>
             ))}
