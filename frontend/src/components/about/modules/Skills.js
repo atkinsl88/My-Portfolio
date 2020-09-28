@@ -18,9 +18,6 @@ const Skills = () => (
         </div>
       </div>
 
-      <div className="divider">
-      </div>
-
       <div className="col-wrap">
         <h4>Back-End</h4>
         <div className="skill">
@@ -28,8 +25,6 @@ const Skills = () => (
         </div>
       </div>
 
-      <div className="divider">
-      </div>
 
       <div className="col-wrap">
         <h4>Other</h4>

@@ -20,30 +20,17 @@
 
 .large-wrapper {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
 }
 
 .large-card {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
   margin-bottom: 20px;
   margin-right: 20px;
-}
-
-.large-card img {
-  border: #979797 1px solid;
 }
 
 /* Largecard Container */
 
 .largecard-title-container {
   padding-top: 60px;
-}
-
-.largecard-title-container img {
-  border: #979797 1px solid;
 }
 
 .largecard-title {

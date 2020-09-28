@@ -1,5 +1,6 @@
 import React from 'react'
-import image from '../../../assets/hero.png'
+import aboutHero from '../../../assets/aboutHero.jpg'
+import heroHero2 from '../../../assets/heroHero2.jpg'
 
 const Hero = () => (
 
@@ -12,13 +13,13 @@ const Hero = () => (
           <p>Digital deisgn and development has always been a passion of mine, in 2020 I decided to transition from Digital Project Manager to Software Engineer.</p>
         </div>
         <div className="hero-sec-img">
-          <img src={image} alt="logo" />
+          <img src={heroHero2} alt="logo" />
         </div>
       </div>
 
       <div className="hero-lrg-rgt">
         <div className="hero-img">
-          <img src={image} alt="logo" />
+          <img src={aboutHero} alt="logo" />
         </div>
       </div>
 

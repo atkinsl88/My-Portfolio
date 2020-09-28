@@ -19,7 +19,7 @@ const Featured = () => (
         <div className="feature">
           <img src={damienlee} alt="logo" />
           <div className="feature-txt">
-            <p>damien king lee</p>
+            <p>Damien King Lee</p>
             <div className="link-spacing">
               <a href="/large/1/">+ Read more</a>
             </div>
@@ -32,7 +32,7 @@ const Featured = () => (
         <div className="feature">
           <img src={parkhouse} alt="logo" />
           <div className="feature-txt">
-            <p>park house care home</p>
+            <p>Park House Nursing Home</p>
             <div className="link-spacing">
               <a href="/large/2/">+ Read more</a>
             </div>

@@ -5,8 +5,7 @@ import Title from './modules/Title'
 import Hero from './modules/Hero'
 import Featured from './modules/Featured'
 import Worked from './modules/Worked'
-import Other from './modules/Other'
-import Footerdrk from '../common/Footerdrk'
+import Footer from '../common/Footer'
 
 
 const Home = () => {
@@ -18,8 +17,7 @@ const Home = () => {
       <Hero />
       <Featured />
       <Worked />
-      <Other />
-      <Footerdrk />
+      <Footer />
     </section>
   )
 

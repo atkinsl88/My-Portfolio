@@ -30,7 +30,7 @@
 
 .txtimg-rgt {
   display: flex;
-  justify-content: flex-end;
+  // justify-content: flex-end;
   flex: 1 1 400px;
   margin-left: 40px;
 }
@@ -43,14 +43,14 @@
   .txtimg-rgt {
     margin-left: 0px;
   }
-  .txtimg-lft {
-    margin-bottom: 30px;
-  }
-  .txtimg-lft img {
+  .img-none img {
     display: none;
   }
   .txtimg-container {
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .extra-space {
+    margin-bottom: 30px;
   }
 }

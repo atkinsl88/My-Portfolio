@@ -26,7 +26,7 @@ class Largeindex extends React.Component {
         <div className="large-container">
 
           <div className="title">
-            <h1>large</h1>
+            <h1>featured</h1>
           </div>
 
           <div className="large-wrapper">

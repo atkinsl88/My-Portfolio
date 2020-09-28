@@ -28,13 +28,11 @@
 
 .worked-wrapper {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .worked {
-  display: flex;
-  flex-direction: column;
+  flex: 1 1 500px;
   margin-bottom: 30px;
 }
 
@@ -47,9 +45,10 @@
 .worked-bkgrd {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex: 1 1 280px;
+  max-width: 360px;
   height: 160px;
-  width: 280px;
   background-color: #1B1B1B;
   margin-top: 20px;
   margin-right: 20px;

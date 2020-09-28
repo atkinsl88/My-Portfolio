@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../../assets/hero.png'
+import design from '../../../assets/design.jpg'
 
 const Txtimg2 = () => (
   <section>
@@ -13,9 +13,9 @@ const Txtimg2 = () => (
         </div>
       </div>
 
-      <div className="txtimg-rgt">
+      <div className="txtimg-rgt img-none extra-space">
         <div className="img-rgt">
-          <img src={image} alt="logo" />
+          <img src={design} alt="logo" />
         </div>
       </div>
 

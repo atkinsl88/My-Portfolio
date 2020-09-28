@@ -26,7 +26,7 @@ class Smallindex extends React.Component {
         <div className="small-container">
 
           <div className="title">
-            <h1>small</h1>
+            <h1>other</h1>
           </div>
 
           <div className="small-wrapper">

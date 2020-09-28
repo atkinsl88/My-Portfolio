@@ -1,14 +1,14 @@
 import React from 'react'
-import image from '../../../assets/hero.png'
+import projectman from '../../../assets/projectman.jpg'
 
 const Imgtxt = () => (
   <section>
 
     <div className="txtimg-container">
 
-      <div className="txtimg-lft">
+      <div className="txtimg-lft img-none">
         <div className="img-lft">
-          <img src={image} alt="logo" />
+          <img src={projectman} alt="logo" />
         </div>
       </div>
 
