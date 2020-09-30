@@ -28,7 +28,7 @@ class Navbar extends React.Component {
             <span></span>
           </span>
         </div>
-        <div className={`navbar-end navbar-menu ${this.state.isOpen ? 'is-active' : ''}`}>
+        <div className={`navbar-end navbar-menu ${this.state.isOpen ? 'is-active is-active-dark' : ''}`}>
           <Link to="/" className="navbar-item navbar-end">Home</Link>
           <Link to="/about" className="navbar-item navbar-end">About</Link>
           <Link to="/work" className="navbar-item navbar-end">Work</Link>

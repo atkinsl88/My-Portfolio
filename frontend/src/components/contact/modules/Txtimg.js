@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../../assets/hero.png'
+import profile from '../../../assets/profile.jpg'
 import linkedin from '../../../assets/linkedin.png'
 import git from '../../../assets/git.png'
 import curriculum from '../../../assets/curriculum.png'
@@ -28,7 +28,7 @@ const Txtimg = () => (
 
       <div className="contact-rgt">
         <div className="img-rgt">
-          <img src={image} alt="logo" />
+          <img src={profile} alt="logo" />
         </div>
       </div>
 

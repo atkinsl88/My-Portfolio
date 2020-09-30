@@ -7,6 +7,7 @@ import rufus from '../../../assets/rufus-leonard.png'
 import ef from '../../../assets/ef.png'
 import story from '../../../assets/story.png'
 import reply from '../../../assets/reply.png'
+import dkl from '../../../assets/dkl.png'
 
 const Featured = () => (
 
@@ -24,7 +25,13 @@ const Featured = () => (
             <h4>As a developer</h4>
           </div>
           
+          
           <div className="worked-parent">
+            <div className="worked-bkgrd">
+              <div className="worked-img">
+                <img src={dkl} alt="logo" />
+              </div>
+            </div>
             <div className="worked-bkgrd">
               <div className="worked-img">
                 <img src={general} alt="logo" />

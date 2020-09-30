@@ -23,13 +23,12 @@ class Smallindex extends React.Component {
     return (
       <section>
 
-        <div className="small-container">
-
-          <div className="title">
+        <div className="small-wrapper">
+          <div className="small-title">
             <h1>other</h1>
           </div>
 
-          <div className="small-wrapper">
+          <div>
             {this.state.smalls.map(small => (
               <Smallcard key={small.id} {...small}/>
             ))}

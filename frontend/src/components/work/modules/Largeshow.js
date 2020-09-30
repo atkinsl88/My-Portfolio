@@ -31,25 +31,32 @@ class Largeshow extends React.Component {
 
         <div className="largecard-title-container">
 
-          <div className="largecard-title">
+          <div className="large-card-title">
             <h1>{large.proj_title}</h1>
           </div>
 
-          <div className="largecard-intro">
-            <div className="descr">
-              <p>{large.proj_desc}</p>
+          <div className="txtimg-container-wht extra-mar">
+
+            <div className="txtimg-lft">
+              <div className="txt-lft text-space">
+                <p>{large.proj_desc}</p>
+                <div className="link-spacing">
+                  <a href={large.url} target="_blank">+ View Website</a>
+                  <a href={large.url2} target="_blank">+ View Github</a>
+                </div>
+              </div>
             </div>
-            <div className="link-spacing">
-              <a href={large.url} target="_blank">+ View Website</a>
-              <a href={large.url2} target="_blank">+ View Github</a>
+
+            <div className="txtimg-rgt ">
+              <div className="img-rgt">
+                <img src={large.proj_img} alt="logo" />
+              </div>
             </div>
+
           </div>
 
-          <div className="largecard-hero-wrapper">
-            <div className="largecard-hero-wrapper-img">
-              <img src={large.proj_img} alt="logo" />
-            </div>
-          </div>
+        
+
 
           <div className="txtimg-container extra-mar">
 

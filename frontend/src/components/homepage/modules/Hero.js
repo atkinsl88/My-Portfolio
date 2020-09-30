@@ -15,7 +15,7 @@ const Hero = () => (
 
       <div className="hero-rgt">
         <div className="hero-txt">
-          <p>I'm a Digital Project Manager turned Software Engineer with over 10 year experience delivering websites, applications and intranets.</p>
+          <p>Digital Project Manager turned Softward Engineer, with over ten years of experience delivering, website, business applications and more.</p>
           <div className="link-spacing">
             <a href="/about">+ About</a>
           </div>

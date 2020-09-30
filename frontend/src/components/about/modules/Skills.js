@@ -8,10 +8,13 @@ const Skills = () => (
       <div className="col-wrap">
         <h4>Front-End</h4>
         <div className="skill">
-          <p>CSS / SCSS</p>
+          <p>CSS (& SCSS)</p>
         </div>
         <div className="skill">
-          <p>JavaScript (React)</p>
+          <p>JavaScript</p>
+        </div>
+        <div className="skill">
+          <p>React</p>
         </div>
         <div className="skill">
           <p>HTML</p>
@@ -22,6 +25,12 @@ const Skills = () => (
         <h4>Back-End</h4>
         <div className="skill">
           <p>Python (Django)</p>
+        </div>
+        <div className="skill">
+          <p>SQL</p>
+        </div>
+        <div className="skill">
+          <p>SQL (Mongo DB)</p>
         </div>
       </div>
 
@@ -35,10 +44,7 @@ const Skills = () => (
           <p>UNIX</p>
         </div>
         <div className="skill">
-          <p>SQL</p>
-        </div>
-        <div className="skill">
-          <p>SQL (Mongo DB)</p>
+          <p>Insomnia / TablePlus</p>
         </div>
       </div>
 

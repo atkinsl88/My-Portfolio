@@ -1,15 +1,27 @@
-.small-container {
-  padding-top: 60px;
+.small-wrapper {
+  background-color: #FFFFFF;
   padding-left: 60px;
   padding-right: 60px;
-  padding-bottom: 60px;
-  background-color: #FFFFFF;
+  padding-top: 60px;
 }
 
-.smol-card {
-  margin-bottom: 60px;
-  margin-right: 20px;
-  max-width: 600px;
+.small-card {
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-card-img {
+  width: 560px;
+  margin-right: 60px;
+}
+
+.small-card-img img {
+  width: 560px;
+}
+
+.small-card-txt {
+  flex: 1 1 500px
 }
 
 /* Smallcard Container */

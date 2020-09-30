@@ -23,18 +23,15 @@ class Largeindex extends React.Component {
     return (
       <section>
 
-        <div className="large-container">
-
-          <div className="title">
+        <div className="large-wrapper">
+          <div className="large-title">
             <h1>featured</h1>
           </div>
-
-          <div className="map">
+          <div>
             {this.state.larges.map(large => (
               <Largecard key={large.id} {...large}/>
             ))}
           </div>
-
         </div>
 
       </section>

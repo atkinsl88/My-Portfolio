@@ -1,8 +1,8 @@
 import React from 'react'
-import image from '../../../assets/hero.png'
 import linkedin from '../../../assets/linkedin.png'
 import git from '../../../assets/git.png'
 import curriculum from '../../../assets/curriculum.png'
+import profile from '../../../assets/profile.jpg'
 
 const Summary = () => (
   <section>
@@ -18,7 +18,7 @@ const Summary = () => (
 
       <div className="summary-rgt">
         <div className="img-rgt">
-          <img src={image} alt="logo" className="summary-large"/>
+          <img src={profile} alt="logo" className="summary-large"/>
           <p>Liam Atkins</p>
           <p>Software Engineer</p>
           <div className="social">
