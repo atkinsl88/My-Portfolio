@@ -22,7 +22,7 @@ const Txtimg = () => (
           <h4>Social & other</h4>
           <a href="https://www.linkedin.com/in/liam-atkins-51753444/" target="_blank"><img src={linkedin} alt="logo"/></a>
           <a href="https://github.com/atkinsl88" target="_blank"><img src={git} alt="logo" /></a>
-          <a href="url" download><img src={curriculum} alt="logo"/></a>
+          <a href="https://drive.google.com/file/d/1pEZYY4jBR3WVIJzIlS9TiqFFCsBb6LmB/view?usp=sharing" target="_blank"><img src={curriculum} alt="logo"/></a>
         </div>
       </div>
 
