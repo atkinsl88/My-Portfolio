@@ -30,7 +30,7 @@ const Skills = () => (
           <p>SQL</p>
         </div>
         <div className="skill">
-          <p>SQL (Mongo DB)</p>
+          <p>NoSQL (Mongo DB)</p>
         </div>
       </div>
 

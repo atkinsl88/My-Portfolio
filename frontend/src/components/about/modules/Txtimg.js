@@ -9,7 +9,7 @@ const Txtimg = () => (
       <div className="txtimg-lft">
         <div className="txt-lft">
           <h4>Development</h4>
-          <p>In June 2020 I graduated from General Assembly's Software Engineering Immersive course and have since been working as a Software Developer on a freelance basis delivering websites and applications local clients.</p>
+          <p>In September 2020 I graduated from General Assembly's Software Engineering Immersive course and have since been working as a Software Developer on a freelance basis delivering websites and applications local clients.</p>
         </div>
       </div>
 
