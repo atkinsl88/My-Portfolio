@@ -27,7 +27,10 @@ const Skills = () => (
           <p>Python (Django)</p>
         </div>
         <div className="skill">
-          <p>SQL</p>
+          <p>Drupal</p>
+        </div>
+        <div className="skill">
+          <p>SQL (MAMP)</p>
         </div>
         <div className="skill">
           <p>NoSQL (Mongo DB)</p>
@@ -44,7 +47,10 @@ const Skills = () => (
           <p>UNIX</p>
         </div>
         <div className="skill">
-          <p>Insomnia / TablePlus</p>
+          <p>Insomnia</p>
+        </div>
+        <div className="skill">
+          <p>MAMP / TablePlus</p>
         </div>
       </div>
 
